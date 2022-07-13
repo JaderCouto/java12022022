@@ -1,0 +1,36 @@
+ENTENDENDO METODOS JAVA
+
+1. CONCEITUACAO DE METODOS
+
+É UMA PORÇÃO DE CÓDIGO (SUB-ROTINA) QUE É DISPNIBILIZADA POR UMA CLASSE. ESTE É EXECUTADO QUAND É FEITA UMA REQUISIÇÃO A ELE.
+
+MÉTODO DEVE SER CRIADO EM UMA CLASSE, TEM QUE SER CHAMADO O METODO. OS METODOS FAZEM TUDO QUE QUEREMOS QUE ACONTEÇA.
+
+PADRÃO DE CRIAÇÃO DO METODO
+<?visibilidade?><?tipo?><?mdificador?>retorno nome (<?parametros?>)<?exceções?>corpo
+
+V: public, protected ou private
+T: concreto ou abstrato
+M: static ou final
+R: tipo de dado ou VOID
+N: nome que é fornecido a método
+P: parâmetros que pode receber
+E: exceções que pode lançar
+C: códig que possui ou vazio
+
+PARTICULARIDADES
+
+Assinatura: è a forma de identificar unicamente o método Ass: nme + parametros
+
+Construtor ou destrutor: sã metodos especiais usados na orientação a Objetos
+
+mensagem: é o ato de solicitar ao método que o mesmo o execute. Esta pode ser direcinada a um objeto ou a uma classe.
+
+Passagem de parametros: Por valor (cópia) ou por referencia (endereço)
+
+BOAS PRÁTICAS
+nomes devem ser descritivos, mas curtos
+nOtação camelo
+deve pOssuiR entre 80 e 120 linhas
+evite lista de parametro longas
+visibilidades adequadas.
