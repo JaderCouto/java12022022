@@ -1,0 +1,9 @@
+Collections Java
+
+java.util.List
+
+Elementos duplicados e garante a ordem de inserção.
+
+Vector: threads
+ArrayList: mais utilizada
+LinkedList: 
